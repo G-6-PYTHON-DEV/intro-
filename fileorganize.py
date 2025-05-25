@@ -2,13 +2,12 @@ import os
 import shutil
 import logging
 
-# Set up logging to print to console instead of a file
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
-# Create a logger object for logging
+
 logger = logging.getLogger()
 
-# Change this to the folder you want to organize
 target_directory = r"C:\Users\burug\OneDrive\Desktop\sample1"  # ← Replace with your folder path
 
 
